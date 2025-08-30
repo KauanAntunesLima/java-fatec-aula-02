@@ -1,0 +1,19 @@
+// ler 2 números, somar e exibir o resultado
+
+import java.util.Scanner;
+
+public class Soma2 {
+    public static void main (String[] args){
+        // entrada
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("digite o primeiro numero: ");
+        int numero1 = scanner.nextInt();
+        System.out.println("digite o segundo numero: ");
+        int numero2 = scanner.nextInt();
+        scanner.close();
+        // processamento
+        int soma = numero1 + numero2;
+        // saida
+        System.out.println("Soma = " + soma);
+    }
+}
